@@ -5,8 +5,8 @@ ingress:
   enabled: false
 replicaCount: 2
 image:
-  repository: draft
-  tag: dev
+  repository: 10.19.244.69:5000/nthh/py-flask-jx
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: python
